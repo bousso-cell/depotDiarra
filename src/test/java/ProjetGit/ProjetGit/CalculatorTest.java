@@ -37,4 +37,9 @@ public class CalculatorTest
         //Calculator calculator = new Calculator();
         Assert.assertEquals(0, calculator.sus(2, 2));
     }
+    @Test
+    public void testDiv() {
+        //Calculator calculator = new Calculator();
+        Assert.assertEquals(2, calculator.div(6, 3));
+    }
 }
